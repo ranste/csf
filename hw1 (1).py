@@ -23,11 +23,13 @@ p = 1
 q = -5.86
 r = 8.5408
 
-rootOne = (-q + math.sqrt(q ** 2 - 4 * p * r))/2p
+rootOne = (-q + math.sqrt(q ** 2 - 4 * p * r))/ 2 * p
 
-rootTwo = (-q - math.sqrt(q ** 2 - 4 * p * r))/2p
+rootTwo = (-q - math.sqrt(q ** 2 - 4 * p * r))/ 2 * p
 
-print "rootOne, rootTwo"
+print rootOne
+
+print rootTwo
 
 ###
 ### Problem 2
