@@ -10,7 +10,7 @@
 # print the answers to all the problems.
 
 import math                     # makes the math.sqrt function available
-
+import hw1_test
 
 ###
 ### Problem 1
@@ -18,7 +18,6 @@ import math                     # makes the math.sqrt function available
 
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
 p = 1
 q = -5.86
 r = 8.5408
@@ -37,8 +36,12 @@ print rootTwo
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
+print hw1_test.a
+print hw1_test.b
+print hw1_test.c
+print hw1_test.d
+print hw1_test.e
+print hw1_test.f
 
 ###
 ### Problem 3
@@ -53,4 +56,4 @@ print "Problem 3 solution follows:"
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+# Rel as collaborator
