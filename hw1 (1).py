@@ -49,11 +49,17 @@ print hw1_test.f
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a = hw1_test.a
+b = hw1_test.b
+c = hw1_test.c
+d = hw1_test.d
+e = hw1_test.e
+f = hw1_test.f
 
+print ((a and b) or (not c) and not (d or e or f))
 
 ###
 ### Collaboration
 ###
 
-# Rel as collaborator
+# Rel as collaborator for importing on problem 2
