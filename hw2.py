@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Stephen Rancourt
+# Evergreen Login: ranste07
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 2
