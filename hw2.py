@@ -87,8 +87,14 @@ while (numlines > 0):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
+numline = 10
+reciprocals = 0
+total = 1.0
+while (numline > 0):
+    reciprocals = (1.0 / math.factorial(numline))
+    total = total + reciprocals
+    numline = numline - 1
+print total
 ###
 ### Collaboration
 ###
