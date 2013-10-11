@@ -9,6 +9,7 @@
 # you are done.  When you are done, running this file should compute and
 # print the answers to all the problems.
 
+import math
 
 ###
 ### Problem 1
@@ -17,11 +18,11 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-n = 0
+x = 0
 c = 0
 total = 0
-while (n < 100):
-    n = (n + 1)
+while (x < 100):
+    x = (x + 1)
     c = (c + 1)
     total = (total + c)
 print total
@@ -44,7 +45,12 @@ for num in nums:
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+triangular = 0
+for i in range(0, 9):
+    triangular = n * (n + 1) / 2
+print "Triangular number", n, "via loop:", triangular
+print "Triangular number", n, "via formula:", n * (n + 1) / 2
 
 ###
 ### Problem 4
@@ -53,7 +59,11 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+m = 10
+factorial = 0
+for i in range(0, 9):
+    factorial = math.factorial(m)
+print "Factorial:", factorial
 
 ###
 ### Problem 5
@@ -62,7 +72,13 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+factorialout = 0
+while (numlines > 0):
+    factorialout = math.factorial(numlines)
+    print "Factorial of", numlines, ":", factorialout
+    numlines = numlines - 1
+
 
 ###
 ### Problem 6
