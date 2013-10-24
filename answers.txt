@@ -19,15 +19,25 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-Content:
+0.43029262963 - sample 1
+0.451051333333 - sample 2
+0.646864112524 - sample 3
+0.347852341166 - sample 4
+0.263157894737 - sample 5
+0.491518518519 - sample 6
 
 Problem 3:
 
-...
+The problem that the program had was the variable linenum being undefined when
+it tried to incriment on itself. The error line was linenum = linenum + 1.
+
+Removing gc_count = 0 produces the same error when gc_count tries to incriment
+on itself.
 
 Problem 4:
 
-...
+
 
 Collaboration:
 
