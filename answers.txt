@@ -37,12 +37,18 @@ on itself.
 
 Problem 4:
 
-
+sample 1
+GC-content: 0.43029262963
+AT-content: 0.568993851852
 
 Collaboration:
 
-...
+Worked alone
 
 Reflection:
 
-...
+I learned how to run a program through the command line.
+I wish I had known that pressing up would show the previous commands to speed up
+running the six samples.
+Advice for future students, don't be afraid to copy lines of code that are already
+functioning.
