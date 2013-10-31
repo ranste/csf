@@ -59,6 +59,8 @@ AT/GC: 1.32234161747
 
 Problem 8:
 
+moderate GC content
+
 Collaboration:
 
 Alexei

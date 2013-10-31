@@ -113,6 +113,15 @@ seq_length = len(seq)
 gc_content = float(gc_count) / total_count
 at_content = float(at_count) / total_count
 at_over_gc = float(at_count) / float(gc_count)
+
+#check gc_content
+if (gc_content > 0.6):
+    print 'high GC content'
+elif (gc_content < 0.4):
+    print 'low GC content'
+else:
+    print 'moderate GC content'
+
 # Print the answer
 print 'GC-content:', gc_content
 print 'AT-content:', at_content
