@@ -59,6 +59,8 @@ a_count = 0
 g_count = 0
 t_count = 0
 c_count = 0
+sum_count = 0
+seq_length = 0
 
 # for each base pair in the string,
 for bp in seq:
@@ -102,6 +104,8 @@ for bp in seq:
         # increment the count of at
         at_count = at_count + 1
 
+sum_count = gc_count + at_count
+seq_length = len(seq)
 
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
@@ -117,3 +121,5 @@ print 'G-content:', g_content
 print 'C-content:', c_content
 print 'A-content:', a_content
 print 'T-content:', t_content
+print 'Sum count:', sum_count
+print 'Seq length:', seq_length
