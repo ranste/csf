@@ -52,6 +52,7 @@ for line in inputfile:
 # Total nucleotides seen so far.
 total_count = 0
 total_count1 = 0
+total_count2 = 0
 # Number of G and C nucleotides seen so far.
 gc_count = 0
 at_count = 0
@@ -61,6 +62,7 @@ t_count = 0
 c_count = 0
 sum_count = 0
 seq_length = 0
+at_over_gc = 0
 
 # for each base pair in the string,
 for bp in seq:
@@ -87,7 +89,7 @@ for bp in seq:
 # for each base pair in the string,
 for bp in seq:
     # increment the total number of bps we've seen
-    total_count = total_count + 1
+    total_count2 = total_count2 + 1
 
     # next, if the bp is a G or a C,
     if bp == 'C' or bp == 'G':
@@ -104,22 +106,21 @@ for bp in seq:
         # increment the count of at
         at_count = at_count + 1
 
-sum_count = gc_count + at_count
+sum_count = g_count + a_count + c_count + t_count
 seq_length = len(seq)
 
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
 at_content = float(at_count) / total_count
-g_content = float(g_count) / total_count
-c_content = float(c_count) / total_count
-a_content = float(a_count) / total_count
-t_content = float(t_count) / total_count
+at_over_gc = float(at_count) / float(gc_count)
 # Print the answer
 print 'GC-content:', gc_content
 print 'AT-content:', at_content
-print 'G-content:', g_content
-print 'C-content:', c_content
-print 'A-content:', a_content
-print 'T-content:', t_content
+print 'G-content:', g_count
+print 'C-content:', c_count
+print 'A-content:', a_count
+print 'T-content:', t_count
 print 'Sum count:', sum_count
+print 'Total count:', total_count
 print 'Seq length:', seq_length
+print 'AT/GC:', at_over_gc

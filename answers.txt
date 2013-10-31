@@ -50,11 +50,16 @@ T-content: 0.1
 
 Problem 6:
 
+Values of Sum count are less than the total count and sequence length because
+there are non GCAT characters in the files.
 
+Problem 7:
+
+AT/GC: 1.32234161747
 
 Collaboration:
 
-Worked alone
+Alexei
 
 Reflection:
 
