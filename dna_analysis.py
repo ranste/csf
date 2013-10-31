@@ -61,6 +61,28 @@ for bp in seq:
     # increment the total number of bps we've seen
     total_count = total_count + 1
 
+    # next, if the bp is a G,
+    if bp == 'G':
+        # increment the count of g
+        g_count = g_count + 1
+    # next, if the bp is an c,
+    elif bp == 'C':
+        # increment the count of c
+        c_count = c_count + 1
+    # next, if the bp is an a,
+    elif bp == 'A':
+        # increment the count of a
+        a_count = a_count + 1
+    # next, if the bp is an t,
+    elif bp == 'T':
+        # increment the count of t
+        t_count = t_count + 1
+        
+# for each base pair in the string,
+for bp in seq:
+    # increment the total number of bps we've seen
+    total_count = total_count + 1
+
     # next, if the bp is a G or a C,
     if bp == 'C' or bp == 'G':
         # increment the count of gc
@@ -73,13 +95,17 @@ for bp in seq:
 
     # next, if the bp is a A or a T,
     if bp == 'A' or bp == 'T':
-        # increment the count of gc
+        # increment the count of at
         at_count = at_count + 1
 
 
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
 at_content = float(at_count) / total_count
+g_content = float(g_content) / total_count
+c_content = float(c_content) / total_count
+a_content = float(a_content) / total_count
+t_content = float(t_content) / total_count
 # Print the answer
 print 'GC-content:', gc_content
 print 'AT-content:', at_content
