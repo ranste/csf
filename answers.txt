@@ -48,6 +48,10 @@ C-content: 0.1
 A-content: 0.25
 T-content: 0.1
 
+Problem 6:
+
+
+
 Collaboration:
 
 Worked alone
