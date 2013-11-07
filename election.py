@@ -37,9 +37,9 @@ def state_edges(election_result_rows):
     """
     state_name = {}
     for x in election_result_rows:
-        temp1 = row_to_edge(x)
+        edge = row_to_edge(x)
         state = (x['State'])
-        state_name[state] = temp1
+        state_name[state] = edge
     return state_name
 
 
