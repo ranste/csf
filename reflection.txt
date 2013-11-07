@@ -1,6 +1,5 @@
 Name: Stephen Rancourt
 Evergreen Login: ranste07
-UW NetID: ...
 CSE 140
 Homework 3: Election prediction
 
