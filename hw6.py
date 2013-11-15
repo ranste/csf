@@ -17,7 +17,13 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 'pumpkin pie'
+if n == 'apple pie':
+    print "I like apple pie."
+elif n == 'peach pie':
+    print "I hate peach pie."
+else:
+    print "I don't mind other types of pie"
 
 
 ###
@@ -27,8 +33,9 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+value = {'apple': 5, 'peach': 0, 'blueberry': 4, 'rhubarb': 1, 'pumpkin': 3, 'chocolate': 2}
 
+print value
 
 ###
 ### Problem 5
@@ -37,8 +44,10 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+def valsearch(x, y):
+    print x[y]
 
+valsearch(value, 'blueberry')
 ###
 ### Problem 6
 ###
