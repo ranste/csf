@@ -55,7 +55,7 @@ valsearch(value, 'blueberry')
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# I'm not sure what the question is even asking me to do.
+# I'm not sure what the question is even asking me to do. - Cody
 
 ###
 ### Problem 7
@@ -64,7 +64,7 @@ print "Problem 6 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
 
-# Of course problem 7 requires having done problem 6. What else.
+# Of course problem 7 requires having done problem 6. What else. - Cody
 
 ###
 ### Collaboration
