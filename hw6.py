@@ -55,7 +55,8 @@ valsearch(value, 'blueberry')
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# I'm not sure what the question is even asking me to do. - Cody
+# I'm don't know how to loop a search through a dictionary
+# that would change the search string each time.
 
 ###
 ### Problem 7
@@ -64,7 +65,7 @@ print "Problem 6 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
 
-# Of course problem 7 requires having done problem 6. What else. - Cody
+# Cannot do problem 7 without problem 6.
 
 ###
 ### Collaboration
