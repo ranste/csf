@@ -83,9 +83,11 @@ print evenMoreValues
 for pie in evenMorePies:
     if evenMoreValues[pie] > 3:
         print ("This {} pie has a rating of {}." .format(pie, evenMoreValues[pie]))
+#Couldn't think of how to compare the two dictionaries the method asked.
+#This prints every pie with value > 3 not just the top 4 pies.
 
 ###
-### Collaboration - Got help from my brother on six and seven.
+### Collaboration - Got help from my brother on six and the first for loop in 7.
 ###
 
 # ... List your collaborators and other sources of help here (websites, books, etc.),
