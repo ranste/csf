@@ -33,6 +33,7 @@ else:
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
+pies = ['apple','peach','blueberry','rhubarb','pumpkin','chocolate']
 value = {'apple': 5, 'peach': 0, 'blueberry': 4, 'rhubarb': 1, 'pumpkin': 3, 'chocolate': 2}
 
 print value
@@ -55,8 +56,9 @@ valsearch(value, 'blueberry')
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# I'm don't know how to loop a search through a dictionary
-# that would change the search string each time.
+for pie in pies:
+    if value[pie] > 3:
+        print ("This {} pie has a rating of {}." .format(pie, value[pie]))
 
 ###
 ### Problem 7
@@ -65,10 +67,25 @@ print "Problem 6 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
 
-# Cannot do problem 7 without problem 6.
+morePies = ['key lime', 'lemon', 'mocha', 'Boston cream', 'mango', 'cherry', 'meat', 'sweet cream', 'strawberry', 'blackberry']
+moreRatings = []
+
+for i in range(10):
+    moreRatings.append(i//2)
+
+moreValues = {morePies[j]: moreRatings[j] for j in range(10)}
+
+print moreValues
+evenMorePies = pies + morePies
+evenMoreValues = dict(value.items() + moreValues.items())
+print evenMoreValues
+
+for pie in evenMorePies:
+    if evenMoreValues[pie] > 3:
+        print ("This {} pie has a rating of {}." .format(pie, evenMoreValues[pie]))
 
 ###
-### Collaboration
+### Collaboration - Got help from my brother on six and seven.
 ###
 
 # ... List your collaborators and other sources of help here (websites, books, etc.),
